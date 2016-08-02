@@ -5,7 +5,7 @@ require(lubridate)
 require(reshape2)
 
 # Set working directory
-setwd("C:/Users/Henk/Desktop/May 2016/April 2016/Coursera R/Working_directory/Exploratory data analysis")
+setwd("./Working_directory/Exploratory data analysis")
 
 # Read data and onvert to tbl_df for dplyr usage
 hhpowerdata <- read.table("./household_power_consumption.txt", sep = ";", header = TRUE)
